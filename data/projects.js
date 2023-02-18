@@ -6,6 +6,7 @@ import reliable from '../public/assets/images/projects/reliable.png'
 import tributecity from '../public/assets/images/projects/tributecity.png'
 import dashboad from '../public/assets/images/projects/dashboard.png'
 import stories from '../public/assets/images/projects/stories.png'
+import eshop from '../public/assets/images/projects/eshop.png'
 
 export const ProjectList = [
   {
@@ -72,5 +73,13 @@ export const ProjectList = [
     image: stories,
     tech: ['Vue.js', 'TailwindCss'],
     url: 'https://vue3-board.netlify.app/',
+  },
+  {
+    id: 9,
+    title: 'Eshop',
+    des: 'Eshop is a web application for sell yours products online.',
+    image: eshop,
+    tech: ['Laravel', 'Bootstrap'],
+    url: '',
   },
 ]
